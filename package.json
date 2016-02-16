@@ -1,0 +1,11 @@
+{
+  "name": "butter-settings-popcorntime.io",
+  "version": "0.0.1",
+  "description": "Settings for butter for the Popcorn Time Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Random Popcon Contributor",
+  "license": "GPL-3.0"
+}
