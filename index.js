@@ -66,5 +66,8 @@ module.exports = {
         'JgeCrPkH6GBa9azUsZ+3MA98b46yhWO2QuRwmFQwPiME+Brim3tHlSuXbL1e5qKf\n' +
         'GOm3OxA3zKXG4cjy6TyEKajYlT45Q+tgt1L1HuGAJjWFRSA0PP9ctC6nH+2N3HmW\n' +
         'RTcms0CPio56gg==\n' +
-        '-----END PUBLIC KEY-----\n'
+        '-----END PUBLIC KEY-----\n',
+    httpApiUsername: 'popcorn',
+    httpApiPassword: 'popcorn',
+    activateVpn: false
 }
