@@ -48,6 +48,13 @@ module.exports = {
          metadata: 'Trakttv',
          tvst: 'TVShowTime',
      },
+    updateEndpoint: {
+        url: 'https://popcorntime.sh/',
+        index: 0,
+        proxies: [{
+            url: 'https://popcorntime.sh/'
+        }]
+    },
     updateKey: '-----BEGIN PUBLIC KEY-----\n' +
         'MIIBtjCCASsGByqGSM44BAEwggEeAoGBAPNM5SX+yR8MJNrX9uCQIiy0t3IsyNHs\n' +
         'HWA180wDDd3S+DzQgIzDXBqlYVmcovclX+1wafshVDw3xFTJGuKuva7JS3yKnjds\n' +
