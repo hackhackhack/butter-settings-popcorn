@@ -3,15 +3,15 @@ module.exports = {
     projectUrl: 'http://popcorntime.sh',
     projectTwitter: 'popcorntimetv',
     projectFacebook: 'PopcornTimeTV',
-    projectGooglePlus: 'ButterProject',
-    projectBlog: 'http://blog.butterproject.org/',
-    projectForum: 'http://discuss.butterproject.org/',
+    projectGooglePlus: 'PopcornTime',
+    projectBlog: 'http://blog.popcorntime.sh/',
+    projectForum: 'http://discuss.popcorntime.sh/',
 
-    statusUrl: 'https://status.butterproject.org',
-    changelogUrl: 'https://github.com/butterproject/butter-desktop/commits/master',
-    issuesUrl: 'https://github.com/butterproject/butter-desktop/issues',
-    sourceUrl: 'https://github.com/butterproject/butter-desktop/',
-    commitUrl: 'https://github.com/butterproject/butter-desktop/commit',
+    statusUrl: 'https://status.popcorntime.sh',
+    changelogUrl: 'https://github.com/popcorn-official/popcorn-desktop/commits/master',
+    issuesUrl: 'https://github.com/popcorn-official/popcorn-desktop/issues',
+    sourceUrl: 'https://github.com/popcorn-official/popcorn-desktop/',
+    commitUrl: 'https://github.com/popcorn-official/popcorn-desktop/commit',
      providers: {
          movie: {
              order: 1,
@@ -19,8 +19,8 @@ module.exports = {
              uri: ['yts?'
                    +'&apiURL='
                      + 'https://api-fetch.website/movies/,'
-                     + 'cloudflare+https://xor.image.yt/,'
-                     + 'cloudflare+http://xor.image.yt/'
+//                     + 'cloudflare+https://xor.image.yt,'
+//                     + 'cloudflare+http://xor.image.yt'
                   ]
          },
          tvshow: {
@@ -29,8 +29,8 @@ module.exports = {
              uri: ['tvapi?'
                    +'&apiURL='
                      + 'https://api-fetch.website/tv/,'
-                     + 'https://odgoglfi7uddahby.onion.to/,'
-                     + 'http://tv.ytspt.re/'
+//                     + 'https://odgoglfi7uddahby.onion.to/,'
+//                     + 'http://tv.ytspt.re/'
                   ]
          },
          anime: {
