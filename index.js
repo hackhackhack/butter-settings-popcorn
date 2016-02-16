@@ -17,15 +17,21 @@ module.exports = {
              order: 1,
              name: 'Movies',
              uri: ['yts?'
-                   +'&apiURL=http://62.210.81.37/'
+                   +'&apiURL='
+                     + 'https://api-fetch.website/movies/,'
+                     + 'cloudflare+https://xor.image.yt/,'
+                     + 'cloudflare+http://xor.image.yt/'
                   ]
          },
          tvshow: {
              order: 2,
              name: 'Series',
              uri: ['tvapi?'
-                  +'&apiURL=http://eztvapi.re/'
-                 ]
+                   +'&apiURL='
+                     + 'https://api-fetch.website/tv/,'
+                     + 'https://odgoglfi7uddahby.onion.to/,'
+                     + 'http://tv.ytspt.re/'
+                  ]
          },
          anime: {
              order: 3,
