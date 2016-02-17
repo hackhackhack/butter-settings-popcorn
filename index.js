@@ -5,7 +5,7 @@ module.exports = {
     projectFacebook: 'PopcornTimeTV',
     projectGooglePlus: 'PopcornTime',
     projectBlog: 'http://blog.popcorntime.sh/',
-    projectForum: 'http://discuss.popcorntime.sh/',
+    projectForum: 'https://www.reddit.com/r/PopcornTime',
 
     statusUrl: 'https://status.popcorntime.sh',
     changelogUrl: 'https://github.com/popcorn-official/popcorn-desktop/commits/master',
